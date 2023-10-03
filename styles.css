@@ -1,0 +1,91 @@
+.container{
+    display: grid;
+    font-size: 18px;
+    color: #2D3748;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,
+                "Noto Sans",sans-serif;
+    padding: 15px;
+}
+
+header{
+    
+    color:#FFFFFF;
+    background:#63B3ED ;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding: 10px;
+    grid-column: 1/3; 
+}
+header h1{
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header img{
+    border-radius: 50%;
+    width: 140px;
+    height:140px;
+}
+
+main{
+    padding-left: 40px;
+    padding-right: 15px;
+}
+article{
+    grid-column: 1/2;
+}
+article h2{
+    font-size: 32px;
+    color: #48BB78;
+}
+article h4{
+    color: #718096;
+}
+
+#pic_1{
+    width: 300px;
+    height: 200px;
+    float: left;
+    padding-right: 15px;
+}
+
+#pic_2{
+    width: 300px;
+    height: 200px;
+    float: right;
+    padding-left: 15px;
+}
+
+aside{
+    grid-column: 2/3;
+    padding: 40px;
+}
+
+aside h3{
+    font-family: Georgia,'Times New Roman', Times, serif;
+    color:#48BB78;
+    
+ 
+}
+
+
+.about{
+    background: #E2E8F0;
+    padding: 15px;
+}
+
+#ab{
+    color:#000000;
+}
+
+.custom-link{
+    color: #4299E1;
+}
+
+footer{
+    background: #2C5282;
+    color: #FFFFFF;
+    grid-column: 1/3;
+    padding: 10px;
+    text-indent: 5%;
+}
